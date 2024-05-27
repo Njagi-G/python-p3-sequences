@@ -13,7 +13,7 @@ def print_fibonacci(length):
         fib_list.append(1)
 
         # Generate the Fibonacci sequence up to the specified length
-        for i in range (2, length):
+        for n in range (2, length):
             # Calculate the next number in the sequence as the sum of the last two numbers
             num = fib_list[-1] + fib_list[-2]
 
